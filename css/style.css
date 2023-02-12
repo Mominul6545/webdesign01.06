@@ -1,0 +1,288 @@
+  
+
+  @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
+
+   *{
+    	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.vcenter{
+	align-items: center;
+}
+.hBetween{
+	justify-content: space-between;
+}
+body{
+	font-family: 'Work Sans', sans-serif;
+}
+/* heroBanner */
+.heroBanner{
+	background-image: url(../images/banner.svg);
+	padding: 230px 0;
+}
+.heroContent{ 
+	    max-width: 726px;
+    margin: 0 auto;
+    text-align: center;
+}   
+.heroContent h1{
+font-weight: 700;
+font-size: 65px;
+line-height: 76px;
+text-align: center;
+
+color: #FFFFFF;
+
+}
+.heroContent p{
+	font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+/* or 162% */
+margin: 20px 0 30px;
+text-align: center;
+
+color: #FFFFFF;
+} 
+.heroContent a{
+background: #FFFFFF;
+border-radius: 5px;
+font-weight: 600;
+font-size: 20px;
+line-height: 23px;
+text-align: right;
+text-decoration: none;
+color: #00AC11;
+padding: 20px 25px;
+display: inline-block;
+}
+/* aboutmesection */
+.aboutmesection{
+	padding: 50px 0;
+}
+.container{
+	max-width: 1170px;
+	margin: 0 auto;
+
+}
+.flex{
+display: flex;
+flex-wrap: wrap;
+
+}
+.column-2{
+	flex-basis: 50%;
+	max-width: 50%;
+	padding: 15px;
+}
+
+.padding-right{
+	padding-right: 140px;
+}
+.column-2 h2{
+	font-weight: 700;
+font-size: 40px;
+line-height: 47px;
+
+color: #151414;}
+
+.column-2 p{
+	font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+margin: 20px 0;
+
+color: #444343;
+}
+
+.column-2 ul{
+	list-style: none;
+}
+.column-2 ul li{
+	    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #444343;
+    display: flex;
+    align-items: center;
+}
+.column-2 ul li img{
+	width: 24px;
+    margin-right: 10px;}
+
+
+.column-2 .portfolio{
+	max-width: 100%;
+}
+
+/**plansection**/
+.plansection{
+	padding: 50px 0;
+	text-align: center;
+}
+.plansection h2{
+	font-weight: 700;
+font-size: 40px;
+line-height: 47px;
+margin-bottom: 50px;
+text-align: center;
+
+
+color: #151414;
+}
+.column-4{
+	flex-basis: 25%;
+	max-width: 25%;
+}
+.column-4 h3{
+
+font-weight: 700;
+font-size: 30px;
+line-height: 35px;
+text-align: center;
+margin: 24px 0 15px;
+
+color: #151414;
+}
+.column-4 p{
+	font-weight: 500;
+font-size: 25px;
+line-height: 29px;
+text-align: center;
+
+color: #737272;
+}
+.column-4 img{}
+
+/**callnowsection**/
+.callnowsection{
+	background-image: url(../images/stairs.svg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	border-radius: 10px;
+	margin-bottom: 100px;
+}
+.callnowbox{
+	padding: 60px;
+	
+	background: linear-gradient(90deg, rgba(0, 95, 172, 0) 0%, #009349 100%);
+	
+	
+	
+}
+.callnowbox h2{
+	    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    margin-bottom: 25px;
+    color: #FFFFFF;
+    max-width: 600px;
+}
+
+.callnowbox a{
+	background: #FFFFFF;
+border-radius: 5px;
+font-weight: 600;
+font-size: 20px;
+line-height: 23px;
+text-align: right;
+text-decoration: none;
+color: #00AC11;
+padding: 20px 25px;
+display: inline-block;
+}
+
+
+/**footerInfo**/
+footer{
+	background-color: #27AE60;
+	padding: 130px 0;
+}
+.footerInfo{
+	flex-basis: 40%;
+	max-width: 40%;
+}
+.footerInfo h2{
+	font-weight: 700;
+font-size: 45px;
+line-height: 53px;
+margin-bottom: 15px;
+
+color: #F8F8F8;
+}
+.footerInfo p{
+	font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+margin-bottom: 15px;
+
+
+
+color: #FFFFFF;
+}
+.socialLink{
+	list-style: none;
+    display: flex;
+}
+
+.socialLink li{    
+}
+.socialLink li a{
+	width: 45px;
+	height: 45px;
+    background: #fff;
+    display: flex;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    font-size: 26px;
+    color: #006AFF;
+    margin-right: 10px;
+}
+.socialLink li a:hover{}
+
+.subscription{
+	flex-basis: 30%;
+	max-width: 30%;
+}
+
+.subscription h2{
+	font-weight: 700;
+font-size: 45px;
+line-height: 53px;
+
+color: #F8F8F8;
+}
+.subscription form{}
+.subscription form input[type="text" ]{
+    border: 1px solid #FFFFFF;
+    border-radius: 8px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    padding: 20px;
+    color: #F3F3F3;
+    width: 100%;
+    margin-bottom: 20px;
+    background-color: transparent;
+}
+.subscription form input[type="submit"]{
+	    background: #009355;
+    border-radius: 8px;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+    padding: 20px 35px;
+    border: 0
+}
+
+::placeholder{
+	color: white;
+}
+::focus-visible{
+	outline: none;
+}
